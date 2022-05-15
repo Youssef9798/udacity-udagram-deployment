@@ -13,12 +13,6 @@ jobs:
       - checkout
       # install dependencies in both apps
       - run:
-          name: Upgrade Front-End Dependencies
-          command: npm run frontend:upgrade
-      - run:
-          name: Upgrade Back-End Dependencies
-          command: npm run backend:upgrade 
-      - run:
           name: Install Front-End Dependencies
           command: |
             npm run frontend:install
