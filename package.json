@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "frontend:upgrade": "cd udagram-frontend && npm upgrade",
-        "backend:upgrade": "cd udagram-api && npm upgrade",
+        "frontend:upgrade": "cd udagram-frontend && npm upgrade --force",
+        "backend:upgrade": "cd udagram-api && npm upgrade --force",
         "frontend:install": "cd udagram-frontend && npm install",
         "backend:install": "cd udagram-api && npm install",
         "frontend:build": "cd udagram-frontend && npm run build",
