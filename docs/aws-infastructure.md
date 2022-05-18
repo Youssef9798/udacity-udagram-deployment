@@ -7,7 +7,7 @@ Udagram is deployed on AWS "Amazon Web Service" using multiple services to deplo
 #### Postgres RDS
 Udagram is using Postgres RDS as database service in AWS for stroing and fetching our app's data.
 
-DATABASE URL:  `jdbc:postgresql://postgresql-instance1.cg034hpkmmjt.us-east-1.rds.amazonaws.com:5432/udagram`
+DATABASE ARN:  `arn:aws:rds:us-east-1:447898413523:db:postgres-1`
 
 #### S3 Bucket
 UI application is deployed using AWS S3 Bucket. UI is built by Angular.
@@ -17,4 +17,4 @@ BUCKET URL: `http://udacity-udgram-ui.s3-website-us-east-1.amazonaws.com/`
 #### EB - Elastic Beanstalk
 The API server is deployed on AWS Elastic Beanstalk service.
 
-EB URL: `http://udagram-api-dev2222222.us-east-1.elasticbeanstalk.com`
+EB URL: `http://udagram-api-dev.eba-bfb3isr3.us-east-1.elasticbeanstalk.com/`
