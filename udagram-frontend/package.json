@@ -7,10 +7,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider; ng build",
+    "windows-build": "unset NODE_OPTIONS=--openssl-legacy-provider; & ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://frontend-bucket-udagram/"
+    "deploy": "aws s3 cp --recursive --acl public-read ./www s3://udagram-client/"
   },
   "private": true,
   "dependencies": {

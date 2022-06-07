@@ -6,6 +6,10 @@ orbs:
   aws-cli: circleci/aws-cli@2.0.2
   # different jobs are calles later in the workflows sections
 jobs:
+  build-deploy:
+    filters:
+      branches:
+        only: master
   build:
     docker:
       # the base image can run most needed actions with orbs

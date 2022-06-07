@@ -12,6 +12,6 @@ set -e
 # echo "aws_access_key_id=$AWS_ACCESS_KEY_ID" >> $HOME/.aws/config
 # echo "aws_secret_access_key=$AWS_SECRET_ACCESS_KEY" >> $HOME/.aws/config
 
-eb use Udagramapi-env
+eb use udagram-api-dev
 
-eb deploy Udagramapi-env
+eb deploy udagram-api-dev
