@@ -7,3 +7,5 @@ CircleCI is a CI Tool which is used to tigger the changes to install and build t
 
 #### Continuous Delievery
 In this process we deploy the app after building after checking all changes and get the approval.
+
+![Infrasturcture](Complete-circleci-pipeline.png)
