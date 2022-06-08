@@ -34,3 +34,11 @@ jobs:
       - run:
           name: The Server Delopy
           command: npm run backend:deploy
+workflows:
+  main: # workflow label
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
